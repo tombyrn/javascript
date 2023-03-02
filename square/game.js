@@ -36,6 +36,10 @@ class Square {
         if(this.position.x < mouse.x + 50 && this.position.x > mouse.x - 50 && this.position.y < mouse.y + 50 && this.position.y > mouse.y - 50){
             this.direction ? this.position.x+=5 : this.position.x-=5
             this.direction ? this.position.y+=5 : this.position.y-=5
+
+
+
+            
         }
     }
 }
